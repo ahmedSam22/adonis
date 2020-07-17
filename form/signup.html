@@ -1,0 +1,120 @@
+<div class="container">
+  <div class="col-md-12">
+    <div class="col-md-6 offset-md-3 centered">
+      <h3 class="head">
+        {{ type what you want
+        <!--header ..-->
+        then check the color .. }}
+      </h3>
+    </div>
+  </div>
+
+  <div class="row">
+    <!-- btns-->
+    <div
+      class="col-lg-2 col-md-2 col-2 d-flex offset-lg-3 offset-md-3 offset-3 btnmain"
+    >
+      <div class="col-md-12 col-lg-12 log" id="signbtn">
+        <button
+          type="button"
+          class="btn btn-outline-danger"
+          style="border: none; width: 100%; margin-left: 0px;"
+          onclick="sign()"
+        >
+          signup
+        </button>
+      </div>
+      <div class="col-md-12 col-lg-12 log hide" id="logbtn">
+        <button
+          type="button"
+          class="btn btn-outline-success"
+          style="border: none; width: 100%; margin-left: 0px;"
+          onclick="login()"
+        >
+          login
+        </button>
+      </div>
+      <!-- btns-->
+    </div>
+
+    <div class="col-md-6 offset-lg-3 offset-md-3 offset-3 main" id="logid">
+      <form action="login">
+        <div class="col-md-12">
+          <label for="username">user name :</label>
+          <input type="text" placeholder="" />
+        </div>
+        <div class="col-md-12">
+          <label for="password">password :</label>
+          <input type="password" placeholder="" />
+        </div>
+
+        <div class="custom-control custom-switch col-md-6 offset-md-3 switch">
+          <input
+            type="checkbox"
+            class="custom-control-input"
+            id="customSwitch1"
+          />
+          <label class="custom-control-label" for="customSwitch1"
+            >remember password</label
+          >
+        </div>
+        <button type="button" class="btn btn-success col-md-3 offset-md-4">
+          login
+        </button>
+        <div class="col-md-12 links">
+          <p class="text-right">
+            <small><a href="..."> forget password</a></small>
+          </p>
+        </div>
+      </form>
+    </div>
+
+    <!-- start part two-->
+
+    <div
+      class="col-md-6 hide offset-md-3 offset-lg-3 offset-3 main signup"
+      id="signid"
+    >
+      <form action="login">
+        <div class="col-md-12">
+          <!-- first and last name-->
+          <label for="first name" class="col-lg-3 col-sm-12 col-12 text-center"
+            >first name :</label
+          >
+          <input
+            type="text"
+            class="col-lg-2 col-sm-12 col-12 text-center"
+            style="width: 100%;"
+          />
+          <label for="last name" class="col-lg-3 col-sm-12 col-12 text-center"
+            >last name :</label
+          >
+          <input
+            type="text"
+            class="col-lg-2 col-sm-12 col-12 text-center"
+            style="width: 100%;"
+          />
+        </div>
+        <div class="col-md-12">
+          <label for="email" class="col-md-5 col-sm-12"
+            >enter your E-mail :</label
+          >
+          <input type="text" class="col-md-5 col-sm-12" style="width: 100%;" />
+        </div>
+        <div class="col-md-12">
+          <label for="password" class="col-md-5"> password : </label>
+          <input type="password" class="col-md-5" style="width: 100%;" />
+        </div>
+        <div class="col-md-12">
+          <label for="password" class="col-md-5">confirm password :</label>
+          <input type="password" class="col-md-5" style="width: 100%;" />
+        </div>
+
+        <button type="button" class="btn btn-success col-md-3 offset-md-4">
+          register
+        </button>
+      </form>
+    </div>
+    <!-- end of part two-->
+  </div>
+</div>

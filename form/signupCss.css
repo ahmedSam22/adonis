@@ -1,0 +1,77 @@
+body {
+  background-image: linear-gradient(to bottom, #204 70%, darkblue);
+  perspective: 700;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+/* start header*/
+.head {
+  color: white; /*here*/
+  text-align: center;
+  margin-top: 20px;
+}
+/* end header*/
+
+/*  start form */
+.main {
+  margin-top: 0px;
+  margin-bottom: 10%;
+  padding: 20px;
+  background-color: rgba(65, 107, 110, 0.3);
+  color: rgb(173, 236, 236);
+  font-weight: 600;
+  border-top-right-radius: 25%;
+  border-bottom-left-radius: 25%;
+}
+input {
+  border: none;
+  color: white;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom: solid 1px blue;
+  padding: 0px;
+}
+input:hover {
+  border-bottom: solid 1px red;
+  transition: ease-in-out;
+  transition-timing-function: ease-in;
+  transition-duration: 200ms;
+  opacity: 0.5;
+}
+button {
+  margin: 10px;
+}
+.switch {
+  margin-top: 15px;
+}
+.links {
+  text-decoration: none;
+  margin-top: 15px;
+}
+a {
+  text-decoration: none;
+  color: aquamarine;
+}
+a:hover {
+  text-decoration: none;
+  color: red;
+}
+/*  end form */
+
+.hide {
+  display: none;
+}
+/* start sides botton*/
+
+.log {
+  padding: 0px;
+}
+
+/* end sides botton*/
+.btnmain {
+  background-color: rgba(65, 107, 110, 0.3);
+  padding: 0px;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
